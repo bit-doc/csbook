@@ -1,14 +1,14 @@
 module.exports = {
-  title: 'csbook',
-  tagline: '计算机科学',
-  url: 'https://csbook.github.io',
-  baseUrl: '/',
+  title: 'My Site',
+  tagline: 'The tagline of my site',
+  url: 'https://your-docusaurus-test-site.com',
+  baseUrl: 'https://bit-doc.github.io/csbook/',
   favicon: 'img/favicon.ico',
   organizationName: 'bit-doc', // Usually your GitHub org/user name.
   projectName: 'csbook', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'My Sitde',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
