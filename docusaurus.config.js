@@ -1,14 +1,14 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: 'https://bit-doc.github.io/csbook/',
+  title: '计算机科学',
+  tagline: '任何关于计算机科学的内容',
+  url: 'https://bit-doc.github.io',
+  baseUrl: '/csbook/',
   favicon: 'img/favicon.ico',
   organizationName: 'bit-doc', // Usually your GitHub org/user name.
   projectName: 'csbook', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Sitde',
+      title: '计算机科学',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -17,10 +17,9 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: '文档',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -84,7 +83,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'technology/index',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
