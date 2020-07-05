@@ -116,7 +116,29 @@
         - Window
     - Class
     - Functions
-
+- Std 
+    - deno/std/archive
+    - deno/std/async
+    - deno/std/bytes
+    - deno/std/datetime
+    - deno/std/encoding
+    - deno/std/examples
+    - deno/std/flags
+    - deno/std/fmt
+    - deno/std/fs
+    - deno/std/hash
+    - deno/std/http
+    - deno/std/io
+    - deno/std/log
+    - deno/std/mime
+    - deno/std/node
+    - deno/std/path
+    - deno/std/permissions
+    - deno/std/signal
+    - deno/std/testing
+    - deno/std/textproto
+    - deno/std/uuid
+    - deno/std/ws
 - Programs
     - Network
         - Tcp Server
@@ -134,6 +156,8 @@
         - MySQL
         - Redis
             - [RedisClient实现](/csbook/docs/Deno/index)
+        - ElasticSearch
+        - Kafka
     - WebFramework
         - MVC
             - Route
@@ -161,6 +185,9 @@
     - Instant Messager
     - WebServer
     - 云存储
+    - Lemmy
+    - 在线代码执行工具
+    - [build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 
 
 

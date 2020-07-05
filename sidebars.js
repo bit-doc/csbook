@@ -10,7 +10,7 @@ module.exports = {
     '数据存储': ['dataStorage/NumberSystems', 'dataStorage/Representation', 'dataStorage/StoringTextInBinary'],
     '数据操控': ['dataOperation/CircuitsAndLogic/README', 'dataOperation/cpu/README', 'dataOperation/io/README', 'dataOperation/memory/README'],
     '操作系统': ['null'],
-    '计算机网络': ['null'],
+    '计算机网络': ['internet/index'],
     '算法与数据结构': ['null'],
     '程序设计语言': ['Deno/index'],
     '软件工程': ['null'],
