@@ -1,0 +1,169 @@
+## Deno 
+
+### 索引
+- Architecture
+    - Deno and Linux analogy(名称对比)
+        - Processes
+        - Syscalls
+        - File descriptors (fd)
+        - Scheduler
+        - /proc/\$\$/stat
+    - Resources
+    - Metrics
+    - Schematic diagram
+
+- Environment 
+    - Environment Variables
+        - DENO_DIR :            Set the cache directory
+        - DENO_INSTALL_ROOT :    Set deno install's output directory
+                            (defaults to $HOME/.deno/bin)
+        - NO_COLOR    :          Set to disable color
+        - HTTP_PROXY  :          Proxy address for HTTP requests
+                            (module downloads, fetch)
+        - HTTPS_PROXY  :         Proxy address for HTTPS requests
+                            (module downloads, fetch)
+    - Deno Command line interface
+        - bundle:         Bundle module and dependencies into single file
+        - cache:           Cache the dependencies
+        - completions:     Generate shell completions
+        - doc:             Show documentation for a - module
+        - eval:            Eval script
+        - fmt:            Format source files
+        - help  :          Prints this message or the help of the given subcommand(s)
+        - info  :          Show info about cache or - info related to source file
+        - install  :       Install script as an executable
+        - lint    :        Lint source files
+        - repl   :         Read Eval Print Loop
+        - run    :         Run a program given a filename or url to the module. Use '-' as a filename to read from stdin.
+        - test     :       Run tests
+        - types   :        Print runtime TypeScript declarations
+        - upgrade :        Upgrade deno executable to given version
+    - Permissions
+        - -A, --allow-all Allow all permissions. This disables all security.
+        - --allow-env Allow environment access for things like getting and setting of environment variables.
+        - --allow-hrtime Allow high resolution time measurement. High resolution time can be used in timing attacks and fingerprinting.
+        - --allow-net=allow-net Allow network access. You can specify an optional, comma separated list of domains to provide a allow-list of allowed domains.
+        - --allow-plugin Allow loading plugins. Please note that --allow-plugin is an unstable feature.
+        - --allow-read=allow-read Allow file system read access. You can specify an optional, comma separated list of directories or files to provide a allow-list of allowed file system access.
+        - --allow-run Allow running subprocesses. Be aware that subprocesses are not run in a sandbox and therefore do not have the same security restrictions as the deno process. Therefore, use with caution.
+        - --allow-write=allow-write Allow file system write access. You can specify an optional, comma separated list of directories or files to provide a allow-list of allowed file system access.
+    - [Compiler Apis](https://deno.land/manual/runtime/compiler_apis)
+    - [Linking to external code](https://deno.land/manual/linking_to_external_code)
+        - Reloading modules
+        - Integrity checking
+        - Proxies
+        - Import maps
+    - [Program lifecycle](/csbook/docs/Deno/ProgramLifecycle)
+        - Deno supports browser compatible lifecycle events: load and unload. 
+
+- Tools
+    - Debugger
+    - Installer
+    - Formatter
+    - Document generator
+    - Dependency inspector
+    - Linter
+
+- Technologies
+    - [WebAssembly](/csbook/docs/Deno/WebAssembly)
+    - [Workers](/csbook/docs/Deno/Worker)
+    - [OS Signals](https://deno.land/manual/examples/os_signals)
+
+- Testing
+    - Assertions
+        - Assertions
+        - Equality
+        - Contains
+        - Regex
+        - Throws
+        - Custom Messages
+
+- Runtime API
+    - Namespaces
+        - Deno
+        - WebAssembly
+        - Performance
+    - Variables
+    - Interfaces
+        - Crypto
+        - Deno.Closer
+        - Deno.Conn
+        - Deno.ConnectOptions
+        - Deno.ConnectTlsOptions
+        - Deno.DirEntry
+        - Deno.FileInfo
+        - Deno.FsEvent
+        - Deno.ListenOptions
+        - Deno.ListenTlsOptions
+        - Deno.Listener
+        - Deno.MakeTempOptions
+        - Deno.Metrics
+        - Deno.MkdirOptions
+        - Deno.NetAddr
+        - Deno.OpenOptions
+        - Deno.Reader
+        - Deno.ReaderSync
+        - Deno.RemoveOptions
+        - Deno.RunOptions
+        - Deno.Seeker
+        - Deno.SeekerSync
+        - Deno.TestDefinition
+        - Deno.UnixAddr
+        - Deno.WriteFileOptions
+        - Deno.Writer
+        - Deno.WriterSync
+        - ImportMeta
+        - Window
+    - Class
+    - Functions
+
+- Programs
+    - Network
+        - Tcp Server
+    - Process
+        - Subprocess
+        - Status
+    - FileSystem
+        - Permissions
+        - FileServer
+        - FileSystem Events
+    - Bash Programs
+        - cat
+        - [进度条效果](https://github.com/chenshenhai/deno_note/blob/master/note/chapter_07/deno_cmd.md) 
+    - Database
+        - MySQL
+        - Redis
+            - [RedisClient实现](/csbook/docs/Deno/index)
+    - WebFramework
+        - MVC
+            - Route
+            - Pipeline
+            - Middleware
+            - Controller
+            - Model
+        - Lifecycle
+            - Headers
+            - Request
+            - Response
+        - Permission
+            - 身份认证
+            - 用户授权
+        - Safe
+            - Crypto
+        - Static Files
+        - URL
+        - FormData
+        - File
+        - Notification
+        - Session
+        - Cookie
+        
+    - Instant Messager
+    - WebServer
+    - 云存储
+
+
+
+### 数据结构
+- [Request](/csbook/docs/Deno/Request)
+- [WebSocket](/csbook/docs/Deno/WebSocket)

@@ -5,270 +5,258 @@ sidebar_label: Computer Science Illuminated
 ## Computer Science Illuminated
 
 - Laying the Groundwork 
-    - Chapter 1 The Big Picture . . . . . . .  . . . . . . . . .3
-        - 1.1 Computing Systems 4
-            - Layers of a Computing System 4
-            - Abstraction 7
-        - 1.2 The History of Computing 9
-            - A Brief History of Computing Hardware 9
-            - A Brief History of Computing Software 17
-            - Predictions 23
-        - 1.3 Computing as a Tool and a Discipline 24
+    - Chapter 1 The Big Picture 
+        - 1.1 Computing Systems 计算系统
+            - Layers of a Computing System 计算系统的层次
+            - Abstraction 抽象
+        - 1.2 The History of Computing 计算的历史
+            - A Brief History of Computing Hardware 计算硬件的历史
+            - A Brief History of Computing Software 计算软件的历史
+            - Predictions 预测
+        - 1.3 Computing as a Tool and a Discipline 计算作为一种工具和学科
             - Summary 26
             - Ethical Issues: Microsoft Anti-Trust Case 27
-            - Key Terms 28
-            - Exercises 28
-            - Thought Questions 31
-- The Information Layer
-    - Chapter 2 Binary Values and Number Systems . .33
-        - 2.1 Number Categories 34
-        - 2.2 Natural Numbers 35
-            - Positional Notation 35
-            - Binary, Octal, and Hexadecimal 38
-            - Arithmetic in Other Bases 39
-            - Power of Two Number Systems 40
-            - Converting From Base 10 to Other Bases 42
-            - Binary Values and Computers 43
-            - Summary 45
-    - Chapter 3 Data Representation . . . . . . . . . . . . . .51
-        - 3.1 Data and Computers 52
-            - Analog and Digital Information 53
-            - Binary Representations 55
-        - 3.2 Representing Numeric Data 57
-            - Representing Negative Values 57
-            - Representing Real Numbers 61
-        - 3.3 Representing Text 63
-            - The ASCII Character Set 64
-            - The Unicode Character Set 65
-            - Text Compression 66
-        - 3.4 Representing Audio Information 70
-            - Audio Formats 72
-            - The MP3 Audio Format 73
-        - 3.5 Representing Images and Graphics 73
-            - Representing Color 73
-            - Digitized Images and Graphics 76
-            - Vector Representation of Graphics 77
-        - 3.6 Representing Video 78
-            - Video Codecs 78
-            - Summary 79
-            - Ethical Issues: Napster 79
-            - Key Terms 80
-            - Exercises 81
-- The Hardware Layer
-    - Chapter 4 Gates and Circuits . . . . . . . . . . . . . . .87
-        - 4.1 Computers and Electricity 88
-        - 4.2 Gates 90
-            - NOT Gate 90
-            - AND Gate 92
-            - OR Gate 92
-            - XOR Gate 93
-            - NAND and NOR Gates 94
-            - Review of Gate Processing 95
-            - Gates with More Inputs 95
-        - 4.3 Constructing Gates 96
-            - Transistors 96
-        - 4.4 Circuits 99
-            - Combinational Circuits 99
-            - Adders 102
-            - Multiplexers 104
-        - 4.5 Circuits as Memory 106
-        - 4.6 Integrated Circuits 107
-        - 4.7 CPU Chips 108
-    - Chapter 5 Computing Components . . . . . . . . . .115
-        - 5.1 Individual Computer Components 116
-        - 5.2 Stored-Program Concept 119
-            - von Neumann Architecture 119
-            - The Fetch-Execute Cycle 124
-            - RAM and ROM 126
-            - Secondary Storage Devices 127
-        - 5.3 Non-von Neumann Architectures 131
-        - 5.4 Interpreting Ads 133
-- The Programming Layer
+- The Information Layer 信息层
+    - Chapter 2 Binary Values and Number Systems  二进制值和数字系统
+        - 2.1 Number Categories 数字分类
+        - 2.2 Natural Numbers 自然数
+            - Positional Notation 位计数法
+            - Binary, Octal, and Hexadecimal 二进制 八进制 十六进制
+            - Arithmetic in Other Bases 其他基础算术
+            - Power of Two Number Systems 二进制的幂
+            - Converting From Base 10 to Other Bases 10进制转换为其他进制
+            - Binary Values and Computers 二进制值和计算机
+    - Chapter 3 Data Representation 数据表示
+        - 3.1 Data and Computers 数据与计算机
+            - Analog and Digital Information  模拟和数字信息
+            - Binary Representations 二进制表示
+        - 3.2 Representing Numeric Data 表示数值
+            - Representing Negative Values 表示负数
+            - Representing Real Numbers 表示实数
+        - 3.3 Representing Text 表示文本
+            - The ASCII Character Set ASCII字符集
+            - The Unicode Character Set Unicode字符集
+            - Text Compression 文本压缩
+        - 3.4 Representing Audio Information 表示音频信息
+            - Audio Formats 音频格式
+            - The MP3 Audio Format MP3音频格式
+        - 3.5 Representing Images and Graphics 表示图片和图形
+            - Representing Color 表示颜色
+            - Digitized Images and Graphics 数字图像和图形
+            - Vector Representation of Graphics 图形的向量表示
+        - 3.6 Representing Video 表示视频
+            - Video Codecs 视频编解码器
+- The Hardware Layer 硬件层
+    - Chapter 4 Gates and Circuits 门和电路
+        - 4.1 Computers and Electricity 计算机和电力
+        - 4.2 Gates 门
+            - NOT Gate 
+            - AND Gate 
+            - OR Gate 
+            - XOR Gate 
+            - NAND and NOR Gates 
+            - Review of Gate Processing 
+            - Gates with More Inputs 
+        - 4.3 Constructing Gates 
+            - Transistors 
+        - 4.4 Circuits 电路
+            - Combinational Circuits 组合电路
+            - Adders 地址
+            - Multiplexers 多路复用器
+        - 4.5 Circuits as Memory 电路作为存储器
+        - 4.6 Integrated Circuits 集成芯片
+        - 4.7 CPU Chips CPU芯片
+    - Chapter 5 Computing Components 计算组件
+        - 5.1 Individual Computer Components 单个计算机组件
+        - 5.2 Stored-Program Concept 存储程序的概念
+            - von Neumann Architecture 冯*诺伊曼体系结构
+            - The Fetch-Execute Cycle 获取-执行周期
+            - RAM and ROM 
+            - Secondary Storage Devices 辅助存储设备
+        - 5.3 Non-von Neumann Architectures 非 冯诺依曼架构
+        - 5.4 Interpreting Ads 翻译广告
+- The Programming Layer 程序层
     - Chapter 6 Problem Solving and
-        - Algorithm Design . . . . . . . . . . . . . . . . .141
-            - 6.1 Problem Solving 142
-                - How to Solve Problems 143
-                - Computer Problem-Solving 148
-                - Following an Algorithm 149
-                - Developing an Algorithm 151
-            - 6.2 Top-Down Design 151
-                - A General Example 153
-                - A Computer Example 155
-                - Summary of Methodology 160
-                - Testing the Algorithm 160
-            - 6.3 Object-Oriented Design 162
-                - Object Orientation 163
-                - Relationships between Classes 163
-                - Object-Oriented Design Methodology 164
-                - General Example 169
-                - Computer Example 171
-            - 6.4 Important Threads 176
-                - Information Hiding 176
-                - Abstraction 177
-                - Naming Things 178
-                - Programming Languages 179
-                - Testing 179
+        - Algorithm Design 问题解决和算法设计
+            - 6.1 Problem Solving 问题解决
+                - How to Solve Problems 如何解决问题
+                - Computer Problem-Solving 计算机解决问题
+                - Following an Algorithm 关注算法
+                - Developing an Algorithm 开发一种算法
+            - 6.2 Top-Down Design 自上而下的设计
+                - A General Example 
+                - A Computer Example 
+                - Summary of Methodology 研究方法
+                - Testing the Algorithm 对算法进行测试
+            - 6.3 Object-Oriented Design 面向对象设计
+                - Object Orientation 面向对象
+                - Relationships between Classes 类与类之间的关系
+                - Object-Oriented Design Methodology 面向对象设计方法
+                - General Example 
+                - Computer Example 
+            - 6.4 Important Threads 重要线程
+                - Information Hiding 信息隐藏
+                - Abstraction 抽象
+                - Naming Things 命名
+                - Programming Languages 程序语言
+                - Testing 测试
            
-    - Chapter 7 Low-Level Programming
-        - Languages . . . . . . . . . . . . . . . . . . . . . . . . . . . .187
-        - 7.1 Computer Operations 188
-        - 7.2 Levels of Abstraction 189
-        - 7.3 Machine Language 189
-            - Pep/7: A Virtual Computer 190
-        - 7.4 A Program Example 198
-            - Problem and Algorithm 198
-            - A Program 199
-            - An Alternate Program for the Same Algorithm 203
-            - An Enhanced Version of “Hello” 204
-        7.5 Assembly Language 207
-            - Pep/7 Assembly Language 207
+    - Chapter 7 Low-Level Programming 低级编程语言
+        - 7.1 Computer Operations 计算机操作
+        - 7.2 Levels of Abstraction 抽象层次
+        - 7.3 Machine Language 机器语言
+            - Pep/7: A Virtual Computer 虚拟计算机
+        - 7.4 A Program Example 
+            - Problem and Algorithm 
+            - A Program 
+            - An Alternate Program for the Same Algorithm
+            - An Enhanced Version of “Hello”
+        7.5 Assembly Language 汇编语言
+            - Pep/7 Assembly Language 
         7.6 Other Important Threads 215
         
-    - Chapter 8 High-Level Programming
-        - Languages . . . . . . . . . . . . . . . . . . . . .225
-            - 8.1 Translation Process 226
-                - Compilers 226
-                - Interpreters 227
-            - 8.2 Programming Language Paradigms 228
-            - 8.3 Functionality of Imperative Languages 231
-                - Boolean Expressions 232
-                - Strong Typing 234
-                - Input/Output Structures 239
-                - Control Structures 240
-                - Composite Data Types 257
-            - 8.4 Functionality of Object-Oriented Languages 261
-                - Encapsulation 261
-                - Inheritance 262
-                - Polymorphism 262
-                - Summary 264
-    - Chapter 9 Abstract Data Types and Algorithms . . . . . . .275
-        - 9.1 Abstract Data Types 276
-        - 9.2 Implementation 277
-            - Array-Based Implementations 277
-            - Linked Implementation 279
-        - 9.3 Lists 282
-            - Basic List Operations 282
-            - Additional List Operations 287
-        - 9.4 Sorting 287
-            - Selection Sort 288
-            - Bubble Sort 290
-            - Quicksort 291
-        - 9.5 Binary Search 295
-        - 9.6 Stacks and Queues 298
-            - Stacks 298
-            - Queues 300
-            - Implementation 300
-        - 9.7 Trees 300
-            - Binary Trees 302
-            - Binary Search Trees 303
-            - Other Operations 309
-            - Graphs 310
-        9.8 Programming Libraries 310
-            - Summary 311
+    - Chapter 8 High-Level Programming 高级程序设计语言
+        - Languages 
+            - 8.1 Translation Process 翻译过程
+                - Compilers 编译器
+                - Interpreters 翻译
+            - 8.2 Programming Language Paradigms 程序语言范例
+            - 8.3 Functionality of Imperative Languages 
+                - Boolean Expressions 布尔运算
+                - Strong Typing 强类型
+                - Input/Output Structures 输入/输出结构
+                - Control Structures 控制结构
+                - Composite Data Types 组合类型
+            - 8.4 Functionality of Object-Oriented Languages 
+                - Encapsulation 
+                - Inheritance 继承
+                - Polymorphism 多态
+    - Chapter 9 Abstract Data Types and Algorithms 抽象数据类型和算法
+        - 9.1 Abstract Data Types 抽象数据类型
+        - 9.2 Implementation 实现
+            - Array-Based Implementations 基于数组的实现
+            - Linked Implementation 连接实现
+        - 9.3 Lists 列表
+            - Basic List Operations 基础列表操作
+            - Additional List Operations 额外的列表操作
+        - 9.4 Sorting 排序
+            - Selection Sort 选择排序
+            - Bubble Sort 冒泡排序
+            - Quicksort 快速排序
+        - 9.5 Binary Search 二分查找
+        - 9.6 Stacks and Queues 栈和队列
+            - Stacks 栈
+            - Queues 队列
+            - Implementation 实现
+        - 9.7 Trees 树
+            - Binary Trees 二叉树
+            - Binary Search Trees 二叉搜索树
+            - Other Operations 其他操作
+            - Graphs 图
+        9.8 Programming Libraries 编程库
 
-- The Operating Systems Layer
-    - Chapter 10 Operating Systems . . . . . . . . . . . . .319
-        - 10.1 Roles of an Operating System 320
-            - Memory, Process, and CPU Management 322
-            - Batch Processing 323
-            - Timesharing 324
-            - Other OS Factors 325
-        - 10.2 Memory Management 326
-            - Single Contiguous Memory Management 327
-            - Partition Memory Management 329
-            - Paged Memory Management 331
-        - 10.3 Process Management 333
-            - The Process States 333
-            - The Process Control Block 334
-        - 10.4 CPU Scheduling 335
-            - First-Come, First-Served 336
-            - Shortest Job Next 337
-            - Round Robin 337
-            - Summary 339
-            - Ethical Issues: Privacy Invasion 340
-    - Chapter 11 File Systems and Directories . . . . . .349
-        - 11.1 File Systems 350
-            - Text and Binary Files 351
-            - File Types 352
-            - File Operations 353
-            - File Access 354
-            - File Protection 356
-        - 11.2 Directories 357
-            - Directory Trees 357
-            - Path Names 359
-        - 11.3 Disk Scheduling 363
-            - First-Come, First-Served Disk Scheduling 364
-            - Shortest-Seek-Time-First Disk Scheduling 365
-            - SCAN Disk Scheduling 365
-            - Summary 366
+- The Operating Systems Layer 操作系统层
+    - Chapter 10 Operating Systems 操作系统
+        - 10.1 Roles of an Operating System 操作系统的角色
+            - Memory, Process, and CPU Management 内存 进程 和CPU管理
+            - Batch Processing 批处理
+            - Timesharing 分时
+            - Other OS Factors 其他OS因素
+        - 10.2 Memory Management  内存管理
+            - Single Contiguous Memory Management 单连续内存管理
+            - Partition Memory Management 分区内存管理
+            - Paged Memory Management 分页内存管理
+        - 10.3 Process Management 进程管理
+            - The Process States 进程状态
+            - The Process Control Block 进程控制模块
+        - 10.4 CPU Scheduling CPU调度
+            - First-Come, First-Served 
+            - Shortest Job Next 
+            - Round Robin 
+            - Summary 
+            - Ethical Issues: Privacy Invasion 
+    - Chapter 11 File Systems and Directories 文件系统和目录
+        - 11.1 File Systems 文件系统
+            - Text and Binary Files 文本和二进制文件
+            - File Types 文件类型
+            - File Operations 文件操作
+            - File Access 文件访问
+            - File Protection 文件保护
+        - 11.2 Directories 目录
+            - Directory Trees 目录树
+            - Path Names 路径名
+        - 11.3 Disk Scheduling 磁盘调度
+            - First-Come, First-Served Disk Scheduling 先到先得磁盘调度
+            - Shortest-Seek-Time-First Disk Scheduling 
+            - SCAN Disk Scheduling 
+            - Summary 
 
-- The Applications Layer
-    - Chapter 12 Information Systems . . . . . . . . . . .373
-        - 12.1 Managing Information 374
-        - 12.2 Spreadsheets 375
-            - Spreadsheet Formulas 377
-            - Circular References 382
-            - Spreadsheet Analysis 382
-        - 12.3 Database Management Systems 383
-            - The Relational Model 384
-            - Relationships 387
-            - Structured Query Language 388
-            - Database Design 390
-            - Summary 392
-            - Ethical Issues: Encryption 393
-    - Chapter 13 Artificial Intelligence . . . . . . . . . . . .399
-        - 13.1 Thinking Machines 400
-            - The Turing Test 401
-            - Contents xvii
-            - Aspects of AI 403
-        - 13.2 Knowledge Representation 403
-            - Semantic Networks 404
-            - Search Trees 406
-        - 13.3 Expert Systems 409
-        - 13.4 Neural Networks 412
-            - Biological Neural Networks 412
-            - Artificial Neural Networks 413
-        - 13.5 Natural Language Processing 415
-            - Voice Synthesis 416
-            - Voice Recognition 417
-            - Natural Language Comprehension 418
-        - 13.6 Robotics 419
-            - The Sense-Plan-Act Paradigm 420
-            - Subsumption Architecture 421
-            - Physical Components 422
-            - Summary 424
-            - Ethical Issues: Deep Linking 425
-    - Chapter 14 Simulation and Other
-        - Applications . . . . . . . . . . . . . . . . .431
-            - 14.1 What Is Simulation? 432
-                - Complex Systems 432
-                - Models 433
-                - Constructing Models 433
-                - Queuing Systems 435
-                - Meteorological Models 438
-                - Other Models 444
-                - Computing Power Necessary 444
-            - 14.2 Graphics and Computer-Aided Design (CAD) 445
-            - 14.3 Embedded Systems 447
+- The Applications Layer 应用程序
+    - Chapter 12 Information Systems 信息系统
+        - 12.1 Managing Information 管理系统
+        - 12.2 Spreadsheets 电子表格
+            - Spreadsheet Formulas 表格公式
+            - Circular References 循环引用
+            - Spreadsheet Analysis 电子表格分析
+        - 12.3 Database Management Systems 数据库管理系统
+            - The Relational Model 关系模型
+            - Relationships 关系
+            - Structured Query Language 结构化查询语言 
+            - Database Design 数据库设计
+            - Summary 
+            - Ethical Issues: Encryption 
+    - Chapter 13 Artificial Intelligence 人工智能思考机器
+        - 13.1 Thinking Machines 思考机器
+            - The Turing Test 图灵测试
+            - Aspects of AI 
+        - 13.2 Knowledge Representation 知识表示
+            - Semantic Networks 语义网络
+            - Search Trees 搜索树
+        - 13.3 Expert Systems 专家系统
+        - 13.4 Neural Networks 神经网络
+            - Biological Neural Networks 生物神经网络
+            - Artificial Neural Networks 人工神经网络
+        - 13.5 Natural Language Processing 自然语言处理
+            - Voice Synthesis 语音合成
+            - Voice Recognition 语音识别
+            - Natural Language Comprehension 自然语言理解
+        - 13.6 Robotics 机器人
+            - The Sense-Plan-Act Paradigm 意义-计划-行动范式
+            - Subsumption Architecture  包容架构
+            - Physical Components 物理组件
+            - Summary
+            - Ethical Issues: Deep Linking
+    - Chapter 14 Simulation and Other 仿真和其他
+        - Applications 应用程序
+            - 14.1 What Is Simulation? 什么是模拟
+                - Complex Systems 复杂系统
+                - Models 模型
+                - Constructing Models 构建模型
+                - Queuing Systems 队列系统
+                - Meteorological Models 气象模型
+                - Other Models 其他模型
+                - Computing Power Necessary 计算能力
+            - 14.2 Graphics and Computer-Aided Design (CAD) 制图和计算机辅助设计
+            - 14.3 Embedded Systems 嵌入式系统
 
-- The Communications Layer
-    - Chapter 15 Networks . . . . . . . . . . . . . . . . . . . .455
-        - 15.1 Networking 456
-            - Types of Networks 457
-            - Internet Connections 459
-            - Packet Switching 462
-        - 15.2 Open Systems and Protocols 463
-            - Open Systems 463
-            - Network Protocols 464
-            - TCP/IP 465
-            - High-Level Protocols 465
-            - MIME Types 466
-            - Firewalls 467
-        - 15.3 Network Addresses 468
-            - Domain Name System 469
-            - Summary 471
-            - Ethical Issues: Cybersquatting 473
-    - Chapter 16 The World Wide Web . . . . . . . . . . .479
+- The Communications Layer 通信层
+    - Chapter 15 Networks 网络
+        - 15.1 Networking 
+            - Types of Networks 
+            - Internet Connections 
+            - Packet Switching 
+        - 15.2 Open Systems and Protocols 
+            - Open Systems 
+            - Network Protocols 
+            - TCP/IP 
+            - High-Level Protocols 
+            - MIME Types 
+            - Firewalls 
+        - 15.3 Network Addresses 
+            - Domain Name System 
+            - Summary 
+            - Ethical Issues: Cybersquatting 
+    - Chapter 16 The World Wide Web 
         - 16.1 Spinning the Web 480
         - 16.2 HTML 482
             - Basic HTML Formatting 485
@@ -277,16 +265,16 @@ sidebar_label: Computer Science Illuminated
             - Java Applets 487
             - Java Server Pages 488
         - 16.4 XML 489
-    - Chapter 17 Limitations of Computing . . . . . . . .501
-        - 17.1 Hardware 502
-            - Limits on Arithmetic 502
-            - Limits on Communications 509
-        - 17.2 Software 510
-            - Complexity of Software 511
-            - Current Approaches to Software Quality 512
-            - Notorious Software Errors 516
-        - 17.3 Problems 518
-            - Comparing Algorithms 519
-            - Turing Machines 525
-            - Halting Problem 528
-            - Classification of Algorithms 531
+    - Chapter 17 Limitations of Computing 
+        - 17.1 Hardware 
+            - Limits on Arithmetic 算数限制
+            - Limits on Communications 通信限制
+        - 17.2 Software
+            - Complexity of Software软件复杂性
+            - Current Approaches to Software Quality 软件质量的当前方法
+            - Notorious Software Errors 臭名昭著的软件错误
+        - 17.3 Problems 
+            - Comparing Algorithms 比较算法
+            - Turing Machines 图灵机
+            - Halting Problem 停机
+            - Classification of Algorithms 算法的分类
