@@ -1,0 +1,12 @@
+---
+title : 图书清单
+---
+- 系列
+    - head first 系列
+        - https://book.douban.com/series/10044
+        - https://search.jd.com/Search?keyword=head%20first&enc=utf-8&wq=head%20firs&pvid=2df470ae22ba46b9b18827b98755cd33
+        - https://www.pdfdrive.com/search?q=head%20first&pagecount=&pubyear=&searchin=
+- 计算机硬件
+- 计算机网络
+    - 深入浅出Network 
+    - 
