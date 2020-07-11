@@ -1,6 +1,20 @@
 ## Deno 
 
 ### 索引
+- 源码构建
+    - https://deno.land/manual/contributing/building_from_source#setup-rust-targets-and-components
+- Basic
+    - Data
+        - [Text to Binary](/csbook/docs/Deno/Data)
+    - Buffer 
+        - concept 
+            - 缓和冲击区域，用于处理速度平衡, 起到流量整形的作用。例如生产者和消费者模式中，缓存生产大于消费过程的中间地带。
+        - 缓冲区类
+            - ArrayBuffer: 用来表示通用的、固定长度的原始二进制数据缓冲区
+            - DataView:二进制内存缓冲区视图
+            - Uint8Array: 8位无符号整型数组-缓冲区操
+            - TextEncoder:将字符串转成二进制缓冲区里的数据流
+            - TextDecoder:将二进制缓冲区里的数据流转成字符串
 - Architecture
     - Deno and Linux analogy(名称对比)
         - Processes
@@ -140,6 +154,7 @@
     - deno/std/uuid
     - deno/std/ws
 - Programs
+    - Http Server
     - Network
         - Tcp Server
     - Process

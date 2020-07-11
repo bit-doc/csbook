@@ -11,6 +11,7 @@ title: 计算机网络
     - 局域网内设备之间通信
         - 计算机之间如何通信
         - 计算机和手机之间如何通信
+            - 在计算机上开启端口监听,其他设备使用访问端口内的站点,比如站点支持文件传输就可以传输数据了
     - 路由器的工作
     - 蓝牙设备如何通信
     - [如何扫描网络内的所有设备IP并列出](https://stackoverflow.com/questions/13669585/how-to-get-a-list-of-all-valid-ip-addresses-in-a-local-network)

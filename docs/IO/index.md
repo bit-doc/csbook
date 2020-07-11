@@ -65,6 +65,21 @@ Aka writing or sending data to an output device.
 
 **Channel I/O**
 
-
+### IO模型
+参考文档: https://blog.csdn.net/ZWE7616175/article/details/80591587
+- blocking I/O
+    - 等待数据,不做其他事情
+    ```
+        fd = fopen()
+        write(fd)
+        read(fd) //read肯定是在write之后执行的,如果write阻塞 read就无法执行
+        close(fd)
+    ```
+- noblocking I/O
+    - 等待数据的时候做其他事情
+- I/O multiplexing  多路复用
+    - 
+- signal blocking I/O(少用)
+- asynchronous I/O (主要用在Windows)
 
 ### 编程语言实现
